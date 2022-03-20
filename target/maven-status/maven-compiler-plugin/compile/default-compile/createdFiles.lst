@@ -1,0 +1,4 @@
+pageObjects/TasksListPage.class
+pageObjects/CreateTaskPage.class
+pageObjects/PageBase.class
+utils/JsonReader.class

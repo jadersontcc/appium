@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 32.124 s <<< FAILURE! - in TestSuite
+test1_add_task(ToDo_Android)  Time elapsed: 16.713 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MMB026280CPS', ip: 'fe80:0:0:0:10b9:13f1:876c:fad%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.3', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/jadersonrg/Automatio..., appPackage: com.jeffprod.todo, databaseEnabled: false, desired: {app: /Users/jadersonrg/Automatio..., deviceName: Emulator, plataformName: Android, platformName: android, platformVersion: 11.0, udid: emulator-5556}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2880, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, plataformName: Android, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, viewportRect: {height: 2628, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 9eaeef1a-e671-4a45-817a-311864fc12c7
+*** Element info: {Using=id, value=fab}
+	at ToDo_Android.test1_add_task(ToDo_Android.java:29)
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MMB026280CPS', ip: 'fe80:0:0:0:10b9:13f1:876c:fad%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.3', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/jadersonrg/Automatio..., appPackage: com.jeffprod.todo, databaseEnabled: false, desired: {app: /Users/jadersonrg/Automatio..., deviceName: Emulator, plataformName: Android, platformName: android, platformVersion: 11.0, udid: emulator-5556}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2880, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, plataformName: Android, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, viewportRect: {height: 2628, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 9eaeef1a-e671-4a45-817a-311864fc12c7
+*** Element info: {Using=id, value=fab}
+	at ToDo_Android.test1_add_task(ToDo_Android.java:29)
+
+test2_add_task(ToDo_Android)  Time elapsed: 14.901 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MMB026280CPS', ip: 'fe80:0:0:0:10b9:13f1:876c:fad%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.3', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+	at ToDo_Android.test2_add_task(ToDo_Android.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MMB026280CPS', ip: 'fe80:0:0:0:10b9:13f1:876c:fad%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.3', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+	at ToDo_Android.test2_add_task(ToDo_Android.java:43)
+

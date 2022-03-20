@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Suite]" verbose="0">
+  <test thread-count="4" parallel="methods" name="Android(failed)" verbose="0">
+    <classes>
+      <class name="ToDo_Android">
+        <methods>
+          <include name="test2_add_task" invocation-numbers="1"/>
+          <include name="test1_add_task" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ToDo_Android -->
+    </classes>
+  </test> <!-- Android(failed) -->
+</suite> <!-- Failed suite [Suite] -->
